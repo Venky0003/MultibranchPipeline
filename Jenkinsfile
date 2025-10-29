@@ -4,7 +4,7 @@ pipeline {
     stages {   
         stage('Master') { 
             steps { 
-               sh 'echo "This is master branch..."' 
+               sh 'echo "This is master barnch... "'
             }
         }
      
@@ -16,7 +16,7 @@ pipeline {
 
         stage("hotfix") { 
              steps { 
-                sh 'echo "This is hotfix branch"'
+                sh 'echo "This is hotfix branch...."'
             }
         }  
     }
